@@ -63,6 +63,7 @@ class Contact extends CI_Controller {
             $this->email->subject($subject);
             $this->email->message($message);
 
+
             // If validation is good send variable to view for JSON to post ''
            	$data['email_form_validation_success'] = 'Message has been sent';
 
@@ -79,6 +80,7 @@ class Contact extends CI_Controller {
 				$this->load->view('main/contact/contact_header');
 				$this->load->view('main/contact/contact_form', $data);
 				$this->load->view('main/contact/top_nav_contact');
+				echo $this->email->print_debugger();
 
 			} else {
 
@@ -93,6 +95,7 @@ class Contact extends CI_Controller {
 				$this->load->view('main/contact/contact_header');
 				$this->load->view('main/contact/contact_form', $data);
 				$this->load->view('main/contact/top_nav_contact');
+				echo $this->email->print_debugger();
 			}
 		}
 	}
