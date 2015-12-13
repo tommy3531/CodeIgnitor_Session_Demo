@@ -4,19 +4,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $active_record = TRUE;
 
+// websiteAN9BTR9U5;
 if(ENVIRONMENT == 'production'){
 
 	$db['default']['hostname'] = 'us-cdbr-azure-west-c.cloudapp.net';
 	$db['default']['username'] = 'b13e28a4963a39';
 	$db['default']['password'] = '82532397';
-	$db['default']['database'] = 'websitean9btr9us';
+	$db['default']['database'] = 'websiteAN9BTR9U5';
 
 } else {
 
 	$db['default']['hostname'] = 'us-cdbr-azure-west-c.cloudapp.net';
 	$db['default']['username'] = 'b13e28a4963a39';
 	$db['default']['password'] = '82532397';
-	$db['default']['database'] = 'websitean9btr9us';
+	$db['default']['database'] = 'websiteAN9BTR9U5';
 }
 
 $db['default']['dbdriver'] = 'mysql';
