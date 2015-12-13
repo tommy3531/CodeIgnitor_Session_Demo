@@ -19,7 +19,7 @@ if(ENVIRONMENT == 'production'){
 	$db['default']['database'] = 'websitean9btr9us';
 }
 
-$db['default']['dbdriver'] = 'mysqli';
+$db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = 'FALSE';
 // default True
