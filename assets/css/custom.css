@@ -1,0 +1,112 @@
+#bootstrap-override {
+  min-height: 40px;
+  padding-top: 80px;
+  background-color: #eee;
+}
+
+
+p {
+  text-align: center;
+  margin: 0;
+}
+
+#forgotpassword {
+  float: right;
+  position: relative;
+  top: -19px;
+}
+
+#logingroup {
+
+  
+
+}
+
+#signupControl {
+
+  border-top: 1px solid;
+  font-size: 85%;
+
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+#login_error {
+  margin: 10px auto;
+  padding: 12px;
+  width: 47%;
+}
+
+#register_title {
+  text-align: center;
+}
+
+#register_button {
+
+  padding: 7px 50px;
+}
+
+
+
+/*******************************************************************************************
+ *                                                                                         *
+ *    Error Message color on registration page                                             *
+ *                                                                                         *
+ * *****************************************************************************************/
+
+#registration_error {
+  color: red;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+
+}
+
+.inner-addon {
+  position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+/* align icon */
+.left-addon .glyphicon  { 
+  left:  0px;
+}
+.right-addon .glyphicon { 
+  right: 0px;
+}
+
+/* add padding  */
+.left-addon input  { 
+  padding-left:  30px; 
+}
+.right-addon input { 
+  padding-right: 30px; 
+}
+#has-feedback{
+  color: red;
+}
+#signupsuccess {
+  color: red;
+}
+.glyphicon.glyphicon-remove{
+  left: initial;
+  margin: 0 auto;
+  padding: 1px;
+}
+.glyphicon.glyphicon-ok {
+  left: initial;
+  margin: 0 auto;
+  padding: 1px;
+}
+.hide{
+  display: none;
+}
+
+
+
+
+
