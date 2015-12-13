@@ -11,7 +11,7 @@ class Contact extends CI_Controller {
 
 	public function process()
 	{
-		$this->output->enable_profiler(TRUE);
+		//$this->output->enable_profiler(TRUE);
 
 		//set form rules, use form_eror to display error message on view
 		$this->form_validation->set_rules('name', 'full name', 'trim|required');
@@ -45,6 +45,17 @@ class Contact extends CI_Controller {
             $email   = $this->input->post('email');
             $subject = $this->input->post('subject');
             $message = $this ->input->post('message');
+
+            // Send Grid
+            $this->email->initialize(array(
+            		'protocol' => 'smtp',
+            		'smtp_host' => 'smtp.sendgrid.net',
+            		'smtp_user' => 'azure_5882f139fb30b8ada4b7fc69792bde42@azure.com',
+            		'smtp_pass' => 'yk5xyIGQ3Bt0iBW',
+            		'smtp_port' => '587',
+            		'crlf' => "\r\n",
+            		'newline' => "\r\n"
+            	));
 
 			// Fill Contact_form with post data
 			$this->email->from($name, $email);
