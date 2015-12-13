@@ -1,7 +1,7 @@
 <div id="wrapper">
 	<div id='headerinfo'>
 		<h1>All information is taken from CodeIgniter User Guide Version 3.0</h1>
-		<a href ="http://www.codeigniter.com/user_guide/index.html">Codeigniter 3</a>
+		<a id='linktag' href ="http://www.codeigniter.com/user_guide/index.html">Codeigniter 3</a>
 	</div>
 	<div id="view_info">
 		<h1> View information</h1>
