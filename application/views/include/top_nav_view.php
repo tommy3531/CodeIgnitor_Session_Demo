@@ -4,7 +4,7 @@
 	<nav id="mainnavbar" class="navbar navbar-default navbar-fixed-top"> <!-- Start #mainnavbar -->
 		<div class="container"> <!-- Start of Container -->
 			<div class="navbar-header"> <!-- Start div.navhar-header -->
-		        <a class="navbar-brand" href="<?php echo site_url('home'); ?>">Missouri Politics</a>
+		        <a class="navbar-brand" href="<?php echo site_url('home'); ?>">Learn about Codeigniter</a>
 			</div> <!-- End div.navbar-header -->
 			<div id="topnavbar" class="navbar-collapse collapse"> <!-- Start #topnavbar -->
 				<ul id ="leftnav" class="nav navbar-nav"> <!-- Start #leftnav -->
