@@ -19,7 +19,9 @@
 </head>
 
 <div class="jumbotron">
-  <h1>This site is dedicated to learning about codeigniter and deploying to azure</h1>
+	<div id='title'>
+  		<h1>This site is dedicated to learning about codeigniter and deploying to azure</h1>
+  	</div>
   <p>- You will learn about the codeigniter structure</p>
   <p>- You will learn aboout views and passing data. </p>
   <p>- You will learn about deploying a codeigniter project to azure</p>
