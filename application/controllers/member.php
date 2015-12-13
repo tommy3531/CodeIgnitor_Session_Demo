@@ -36,8 +36,8 @@ class Member extends CI_Controller {
 	{
 
 		$this->load->view('include/header');
-		$this->load->view('member/viewinfo');
 		$this->load->view('member/top_nav_member');
+		$this->load->view('member/viewinfo');
 		$this->load->view('include/footer');
 	}
 
@@ -46,8 +46,8 @@ class Member extends CI_Controller {
 	public function controllerinfo() 
 	{
 		$this->load->view('include/header');
-		$this->load->view('member/controllerinfo');
 		$this->load->view('member/top_nav_member');
+		$this->load->view('member/controllerinfo');
 		$this->load->view('include/footer');
 	}
 
@@ -56,8 +56,8 @@ class Member extends CI_Controller {
 	public function modelinfo() 
 	{
 		$this->load->view('include/header');
-		$this->load->view('member/modelinfo');
 		$this->load->view('member/top_nav_member');
+		$this->load->view('member/modelinfo');
 		$this->load->view('include/footer');
 	}
 
@@ -66,7 +66,7 @@ class Member extends CI_Controller {
 	public function azureinfo()
 	{
 		$this->load->view('include/header');
-		$this->load->view('member/member');
+		$this->load->view('member/top_nav_member');
 		$this->load->view('member/azureinfo');
 		$this->load->view('include/footer');
 	}
