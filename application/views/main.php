@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Exploring Science</title>
+	<title>Learn Codeigniter</title>
 
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>formvalidation/dist/js/formValidation.js"></script>
@@ -31,7 +31,7 @@
 	<nav id="mainnavbar" class="navbar navbar-default navbar-fixed-top"> <!-- Start #mainnavbar -->
 		<div class="container"> <!-- Start of Container -->
 			<div class="navbar-header"> <!-- Start div.navhar-header -->
-		        <a class="navbar-brand" href="<?php echo site_url('home'); ?>">Missouri Politics</a>
+		        <a class="navbar-brand" href="<?php echo site_url('home'); ?>">Learn Codeigniter</a>
 			</div> <!-- End div.navbar-header -->
 			<div id="topnavbar" class="navbar-collapse collapse"> <!-- Start #topnavbar -->
 				<ul id ="leftnav" class="nav navbar-nav"> <!-- Start #leftnav -->
@@ -71,9 +71,8 @@
 		<div id="jumboContainer" class="container"> <!-- Start #jumboContainer -->
 			<div class="row"> <!-- Start .row -->
 				<div class="col-lg-12"> <!-- Start .col-lg-12 -->
-					<h1>Information About Missouri Legislators</h1>
-					<p>Become informed, take action and learn what your elected officials are doing</p>
-					<p>Data is taken from the Sunlight Foundation API</p>
+					<h1>Learn about Codeigniter</h1>
+					<p>Explore how Codeigniter works and use PHP, JQUERY to bring life to a Codeigniter project</p>
 					<p>
 						<a class="btn btn-lg btn-primary" href="<?php echo site_url('signup'); ?>" role="button">Sign up!</a>
 					</p>
