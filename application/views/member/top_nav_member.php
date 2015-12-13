@@ -8,7 +8,7 @@
 			<div id="topnavbar" class="navbar-collapse collapse"> <!-- Start #topnavbar -->
 				<ul id ="leftnav" class="nav navbar-nav"> <!-- Start #leftnav -->
 					<li class="active">
-						<a href="<?php echo site_url('members/viewinfo'); ?>">Views</a>
+						<a href="<?php echo site_url('member/viewinfo'); ?>">Views</a>
 					</li>
 					<li>
 						<a href="<?php echo site_url('member/controllerinfo'); ?>">Controller Info</a>

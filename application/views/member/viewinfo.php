@@ -1,0 +1,1 @@
+<h1> for viewinfo.php</h1>

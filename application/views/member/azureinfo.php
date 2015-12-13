@@ -1,0 +1,1 @@
+<h1> for azureinfo.php</h1>

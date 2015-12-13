@@ -34,28 +34,41 @@ class Member extends CI_Controller {
 
 	public function viewinfo() 
 	{
-		$this->load->view('works');
+
+		$this->load->view('include/header');
+		$this->load->view('member/viewinfo');
+		$this->load->view('member/top_nav_member');
+		$this->load->view('include/footer');
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 
 	public function contollerinfo() 
 	{
-		$this->load->view('works');
+		$this->load->view('include/header');
+		$this->load->view('member/controllerinfo');
+		$this->load->view('member/top_nav_member');
+		$this->load->view('include/footer');
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 
 	public function modelinfo() 
 	{
-		$this->load->view('works');
+		$this->load->view('include/header');
+		$this->load->view('member/modelinf');
+		$this->load->view('member/top_nav_member');
+		$this->load->view('include/footer');
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 
 	public function azureinfo()
 	{
-		$this->load->view('works');
+		$this->load->view('include/header');
+		$this->load->view('member/member');
+		$this->load->view('member/azureinfo');
+		$this->load->view('include/footer');
 	}
 }
 
