@@ -9,7 +9,7 @@
 			<p id='viewtext'>Views are located in the application/view director.
 			              they receive information from there respective controller on what to show the user.
 			              for example if I had a controller named login I would have a function called index.
-			              The index function in the controller login would load the login form, whenever a user,
+			              The index function in the controller login would load the login form, whenever a user
 			              would click the login button the page.
 			</p>
 			<p id="learning link">
