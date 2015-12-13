@@ -43,7 +43,7 @@ class Member extends CI_Controller {
 
 // ----------------------------------------------------------------------------------------------------------------
 
-	public function contollerinfo() 
+	public function controllerinfo() 
 	{
 		$this->load->view('include/header');
 		$this->load->view('member/controllerinfo');
@@ -56,7 +56,7 @@ class Member extends CI_Controller {
 	public function modelinfo() 
 	{
 		$this->load->view('include/header');
-		$this->load->view('member/modelinf');
+		$this->load->view('member/modelinfo');
 		$this->load->view('member/top_nav_member');
 		$this->load->view('include/footer');
 	}
