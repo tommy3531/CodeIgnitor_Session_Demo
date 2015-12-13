@@ -30,6 +30,6 @@
   <p>- Last but not least you might learn something new!</p>
   <p>- Become a member and get access to a free youtube free!</p>  
 
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Sign Up</a></p>
+  <p><a class="btn btn-primary btn-lg" href="<?php echo site_url('signup'); ?>" role="button">Sign Up</a></p>
 </div>
 
