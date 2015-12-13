@@ -4,5 +4,5 @@
 
 <div class="jumbotron">
   <h1>Hello, Members</h1>
-  <p>Please click on the about links to learn about Codeigniter</p>
+  <p>Please click on the above links to learn about Codeigniter</p>
 </div>

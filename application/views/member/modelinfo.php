@@ -3,7 +3,7 @@
 		<h1>All information is taken from CodeIgniter User Guide Version 3.0</h1>
 		<a id='linktag' href ="http://www.codeigniter.com/user_guide/index.html">Codeigniter 3</a>
 	</div>
-	<div id="view_info">
+	<div class="jumbotron">
 		<h1> Model Information</h1>
 		<div id='content'>
 			<p id='viewtext'>The model is used to interact with your database, I autoloaded the database in the config/autloader, so I

@@ -6,7 +6,7 @@
 	</div>
 	<div id="view_info">
 		<h1> Azure Information</h1>
-		<div id='content'>
+		<div class="jumbotron">
 			<p id='viewtext'> My best advice would be to create a git repo, once your files are uploaded to git go to the terminal and type in
 							 'git remote -v', this will display a list of active repo connections. For example I have a git repo named
 							 testsite and when ever I make changes I use git add ., git status git commit -m 'Message' and then git push origin master.

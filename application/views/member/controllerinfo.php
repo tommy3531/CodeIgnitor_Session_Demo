@@ -5,7 +5,7 @@
 	</div>
 	<div id="view_info">
 		<h1> Controller Information</h1>
-		<div id='content'>
+		<div class="jumbotron">
 			<p id='viewtext'>Controllers are considered the middle man when talking about views and models. On mysite the model 
 							 communicates with the Database when a user logins to verify there password.  If you the passwords match
 							 the model sends the user_id to the controller.  The controller uses the user_id in a session to see if the 
