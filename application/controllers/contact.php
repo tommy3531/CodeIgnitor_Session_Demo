@@ -81,7 +81,6 @@ class Contact extends CI_Controller {
 				$this->load->view('main/contact/contact_header');
 				$this->load->view('main/contact/contact_form', $data);
 				$this->load->view('main/contact/top_nav_contact');
-				echo $this->email->print_debugger();
 
 			} else {
 
@@ -96,7 +95,7 @@ class Contact extends CI_Controller {
 				$this->load->view('main/contact/contact_header');
 				$this->load->view('main/contact/contact_form', $data);
 				$this->load->view('main/contact/top_nav_contact');
-				echo $this->email->print_debugger();
+				
 			}
 		}
 	}
