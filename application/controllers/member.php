@@ -104,7 +104,7 @@ class Member extends CI_Controller {
 			$this->load->view('member/pictureinfo');
 			$this->load->view('include/footer');
 
-		else {
+		} else {
 
 			redirect('home');
 		}
