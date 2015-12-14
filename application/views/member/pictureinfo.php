@@ -1,5 +1,5 @@
 
-
+<img id="azureimg" src="http://testsitetom.azurewebsites.net/member/pictureinfo/images/azuregit.png" alt="gitpicture" style="height:400px;width:300px">
 <!-- Page Content -->
 <div class="container">
 
