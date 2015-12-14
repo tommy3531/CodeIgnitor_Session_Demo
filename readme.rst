@@ -65,6 +65,12 @@ This can be viewed in the testsite/assets/js/contact.js
 #####################################
 I used bootstrap throughtout the site this can be viewed testsite/application/views/'any view'
 
-
-
+#####################################
+11. Did more than the Required      #
+#####################################
+I used sendgrid api for my contact form to email me if a user wanted to contact me
+I also encrypted password using BYCRPTY library and stored password hash in DB
+I also used a clearDB from azure to load user information
+I used session to see if a user is logged in or not
+I also used a php framework called codeigniter
 
