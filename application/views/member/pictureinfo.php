@@ -25,7 +25,7 @@
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a class="thumbnail" href="#">
-                <img id="img-responsive" src"<?php echo base_url(); ?>assets/images/session.png" alt="session" style="height:300px;width:500px">
+                <img id="img-responsive" src="<?php echo base_url(); ?>assets/images/session.png" alt="session" style="height:300px;width:500px">
             </a>
         </div>
     </div>
