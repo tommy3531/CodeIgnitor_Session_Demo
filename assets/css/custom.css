@@ -105,15 +105,27 @@ p {
 .hide{
   display: none;
 }
+
 h1 {
   text-align: center;
 }
 
 #linktag {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
 
+.container {
+  width: 100%;
+  float: left;
+}
+#videocontainer {
+  max-width: 560px;
+  max-height: 315px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 
