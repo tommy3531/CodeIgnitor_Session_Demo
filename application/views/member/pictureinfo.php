@@ -11,7 +11,7 @@
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a class="thumbnail" href="#">
-                <img id="azureimg" src="<?php echo base_url(); ?>images/azuregit.png" alt="gitpicture" style="height:400px;width:300px">
+                <img id="azureimg" src="http://testsitetom.azurewebsites.net/member/pictureinfo/images/azuregit.png" alt="gitpicture" style="height:400px;width:300px">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
