@@ -22,6 +22,9 @@
 					<li>
 						<a href="<?php echo site_url('member/pictureinfo'); ?>">Picture Info</a>
 					</li>
+					<li>
+						<a href="<?php echo site_url('member/videoinfo'); ?>">Video Info</a>
+					</li>
 				</ul> <!-- End #leftnav -->
 				<ul id="rightnav" class="nav navbar-nav navbar-right"> <!-- Start #rightnav -->
 

@@ -71,11 +71,22 @@ class Member extends CI_Controller {
 		$this->load->view('include/footer');
 	}
 
+// ----------------------------------------------------------------------------------------------------------------
 	public function pictureinfo() 
 	{
 		$this->load->view('include/header');
 		$this->load->view('member/top_nav_member');
 		$this->load->view('member/pictureinfo');
+		$this->load->view('include/footer');
+	}
+
+// ----------------------------------------------------------------------------------------------------------------
+	
+	public function videoinfo()
+	{
+		$this->load->view('include/header');
+		$this->load->view('member/top_nav_member');
+		$this->load->view('member/videoinfo');
 		$this->load->view('include/footer');
 	}
 }
