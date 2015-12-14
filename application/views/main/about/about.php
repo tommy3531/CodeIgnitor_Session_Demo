@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Learn about Codeigniter</title>
+	<title>Learn Codeigniter</title>
 
 	<!-- Load jquery and bootstrap css files -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" >
@@ -20,15 +20,14 @@
 
 <div class="jumbotron">
 	<div id='title'>
-  		<h1>Dedicated to learning about codeigniter and deploying to azure</h1>
-  	</div>
-  <p>- You will learn about the codeigniter structure</p>
-  <p>- You will learn aboout views and passing data. </p>
-  <p>- You will learn about deploying a codeigniter project to azure</p>
-  <p>- You will learn about how to configure your application/config file for a database</p>
-  <p>- You will learn about how to autoload libraries</p>
-  <p>- Last but not least you might learn something new!</p>
-  <p>- Become a member and get access to a free youtube free!</p>  
+		<h1>Dedicated to learning about codeigniter and deploying to azure</h1>
+    <p>- You will learn about the codeigniter structure</p>
+    <p>- You will learn aboout views and passing data. </p>
+    <p>- You will learn about deploying a codeigniter project to azure</p>
+    <p>- You will learn about how to configure your application/config file for a database</p>
+    <p>- You will learn about how to autoload libraries</p>
+    <p>- Last but not least you might learn something new!</p>
+    <p>- Become a member and get access to a free youtube free!</p>  
 
   <p><a class="btn btn-primary btn-lg" href="<?php echo site_url('signup'); ?>" role="button">Sign Up</a></p>
 </div>
