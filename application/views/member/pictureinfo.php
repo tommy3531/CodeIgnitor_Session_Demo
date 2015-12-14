@@ -9,6 +9,7 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
             <a class="thumbnail" href="#">
                 <img id="azureimg" src="<?php echo base_url(); ?>assets/images/azuregit.png" alt="gitpicture" style="height:300px;width:500px">
             </a>
@@ -30,4 +31,7 @@
         </div>
     </div>
 </div>
+<script src="text/javascript">
+	$("img").elevateZoom();
+</script>
 
