@@ -23,6 +23,7 @@ class Member extends CI_Controller {
 	{
 		$this->session->sess_destroy();
 		$data['logout_sucess'] = 'You have been logged out';
+		redirect('home', $data)
 		$this->load->view('login/login_header');
 		$this->load->view('login/login_form', $data);
 		$this->load->view('login/top_nav_login');
@@ -34,60 +35,96 @@ class Member extends CI_Controller {
 
 	public function viewinfo() 
 	{
+		if($this->session->userdata('logged_in')) {
+			$this->load->view('include/header');
+			$this->load->view('member/top_nav_member');
+			$this->load->view('member/viewinfo');
+			$this->load->view('include/footer');
 
-		$this->load->view('include/header');
-		$this->load->view('member/top_nav_member');
-		$this->load->view('member/viewinfo');
-		$this->load->view('include/footer');
+		} else {
+
+			redirect('home');
+		}
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 
 	public function controllerinfo() 
 	{
-		$this->load->view('include/header');
-		$this->load->view('member/top_nav_member');
-		$this->load->view('member/controllerinfo');
-		$this->load->view('include/footer');
+		if($this->session->userdata('logged_in')) {
+			$this->load->view('include/header');
+			$this->load->view('member/top_nav_member');
+			$this->load->view('member/controllerinfo');
+			$this->load->view('include/footer');
+
+		} else {
+
+			redirect('home');
+		}
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 
 	public function modelinfo() 
 	{
-		$this->load->view('include/header');
-		$this->load->view('member/top_nav_member');
-		$this->load->view('member/modelinfo');
-		$this->load->view('include/footer');
+		if($this->session->userdata('logged_in')) {
+
+			$this->load->view('include/header');
+			$this->load->view('member/top_nav_member');
+			$this->load->view('member/modelinfo');
+			$this->load->view('include/footer');
+
+		} else {
+
+			redirect('home');
+		}
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 
 	public function azureinfo()
 	{
-		$this->load->view('include/header');
-		$this->load->view('member/top_nav_member');
-		$this->load->view('member/azureinfo');
-		$this->load->view('include/footer');
+		if($this->session->userdata('logged_in')) {
+			$this->load->view('include/header');
+			$this->load->view('member/top_nav_member');
+			$this->load->view('member/azureinfo');
+			$this->load->view('include/footer');
+
+		} else {
+
+			redirect('home');
+		}
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 	public function pictureinfo() 
 	{
-		$this->load->view('include/header');
-		$this->load->view('member/top_nav_member');
-		$this->load->view('member/pictureinfo');
-		$this->load->view('include/footer');
+		if($this->session->userdata('logged_in')) {
+			$this->load->view('include/header');
+			$this->load->view('member/top_nav_member');
+			$this->load->view('member/pictureinfo');
+			$this->load->view('include/footer');
+
+		else {
+
+			redirect('home');
+		}
 	}
 
 // ----------------------------------------------------------------------------------------------------------------
 	
 	public function videoinfo()
 	{
-		$this->load->view('include/header');
-		$this->load->view('member/top_nav_member');
-		$this->load->view('member/videoinfo');
-		$this->load->view('include/footer');
+		if($this->session->userdata('logged_in')) {
+			$this->load->view('include/header');
+			$this->load->view('member/top_nav_member');
+			$this->load->view('member/videoinfo');
+			$this->load->view('include/footer');
+			
+		} else {
+
+			redirect('home');
+		}
 	}
 }
 
