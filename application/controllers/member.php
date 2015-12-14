@@ -23,7 +23,6 @@ class Member extends CI_Controller {
 	{
 		$this->session->sess_destroy();
 		$data['logout_sucess'] = 'You have been logged out';
-		redirect('home', $data)
 		$this->load->view('login/login_header');
 		$this->load->view('login/login_form', $data);
 		$this->load->view('login/top_nav_login');
@@ -120,7 +119,7 @@ class Member extends CI_Controller {
 			$this->load->view('member/top_nav_member');
 			$this->load->view('member/videoinfo');
 			$this->load->view('include/footer');
-			
+
 		} else {
 
 			redirect('home');
